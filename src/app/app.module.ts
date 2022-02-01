@@ -1,6 +1,6 @@
-import { NgModule } from '@angular/core';
+// import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
+import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './component/shared/header/header.component';
@@ -11,6 +11,10 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { FiltersComponent } from './component/shopping-cart/filters/filters.component';
 import { ProductListComponent } from './component/shopping-cart/product-list/product-list.component';
 import { CartComponent } from './component/shopping-cart/cart/cart.component';
+import { LoginComponent } from './component/login/login.component';
+import { SignUpComponent } from './component/sign-up/sign-up.component';
+import { FormsModule } from '@angular/forms';
+import { ShopComponent } from './component/shop/shop.component';
 
 @NgModule({
   declarations: [
@@ -21,14 +25,22 @@ import { CartComponent } from './component/shopping-cart/cart/cart.component';
     ShoppingCartComponent,
     FiltersComponent,
     ProductListComponent,
-    CartComponent
+    CartComponent,
+    LoginComponent,
+    SignUpComponent,
+    ShopComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgbModule
+    NgbModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
+
+schemas: [
+  CUSTOM_ELEMENTS_SCHEMA
+];
