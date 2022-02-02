@@ -15,6 +15,8 @@ import { LoginComponent } from './component/login/login.component';
 import { SignUpComponent } from './component/sign-up/sign-up.component';
 import { FormsModule } from '@angular/forms';
 import { ShopComponent } from './component/shop/shop.component';
+import { HttpClientModule } from '@angular/common/http'; 
+import{CartItemComponent} from './component/shopping-cart/cart/cart-item/cart-item.component';
 
 @NgModule({
   declarations: [
@@ -28,13 +30,15 @@ import { ShopComponent } from './component/shop/shop.component';
     CartComponent,
     LoginComponent,
     SignUpComponent,
-    ShopComponent
+    ShopComponent,
+    CartItemComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     NgbModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
