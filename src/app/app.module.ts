@@ -18,6 +18,8 @@ import { ShopComponent } from './component/shop/shop.component';
 import { HttpClientModule } from '@angular/common/http'; 
 import{CartItemComponent} from './component/shopping-cart/cart/cart-item/cart-item.component';
 import { ProductItemComponent } from './component/shopping-cart/product-list/product-item/product-item.component';
+import { LoginsucessComponent } from './loginsucess/loginsucess.component';
+import { RegistrationComponent } from './registration/registration.component';
 
 @NgModule({
   declarations: [
@@ -33,7 +35,9 @@ import { ProductItemComponent } from './component/shopping-cart/product-list/pro
     SignUpComponent,
     ShopComponent,
     CartItemComponent,
-    ProductItemComponent
+    ProductItemComponent,
+    LoginsucessComponent,
+    RegistrationComponent
   ],
   imports: [
     BrowserModule,

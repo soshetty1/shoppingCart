@@ -5,7 +5,7 @@ import { Product } from 'src/app/model/product';
   providedIn: 'root'
 })
 export class ProductService {
-  Products: Product[] = [
+  products: Product[] = [
     new Product(1, 'Product1','this is product 1 description: this product is really cool',100),
     new Product(1, 'Product2','this is product 2 description: this product is really cool',200),
     new Product(3, 'Product3','this is product 3 description: this product is really cool',300),
@@ -17,6 +17,6 @@ export class ProductService {
 
 getProducts():Product[]{
   //TO Do:populate products from an API and return and observable
-return this.Products
+return this.products
 }
 }
