@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import { CartItem } from 'src/app/model/cart-item';
 import { Product } from 'src/app/model/product';
+import { CartService } from 'src/app/services/cart.service';
 import { MessengerService } from 'src/app/services/messenger.service';
 
 @Component({
@@ -15,26 +17,82 @@ export class CartComponent implements OnInit {
 // {id: 1,productid:6, productName: 'test3', quantity:2, price:200 },
 // {id: 1,productid:1,productName: 'test4' ,quantity:1, price:150 }
 // ];
-cartItems : {productName:string;quantity:number, price:number}[]=[];
+cartItems : {productName:string;quantity:number, price:number,productId:number}[]=[];
 
 cartTotal=0
 
- constructor(private msg:MessengerService) { }
+ constructor(private msg:MessengerService, 
+  private cartService: CartService) { }
 
   ngOnInit() {
-    this.msg.getMsg().subscribe((product: any) => { 
-      this.cartItems.push({
-         productName: product.name, 
-         quantity: 1,
-         price: product.price
-        })
-        this.cartTotal = 0; 
-        this.cartItems.forEach(item => { 
-          this.cartTotal += (item['quantity'] * item['price']) 
-        }) 
-      })
+    this.handleSubscription(); 
+    this.loadCartItems();
   }
 
+  handleSubscription(){
+    this.msg.getMsg().subscribe((product: any) => { 
+      this.addProductTocart(product)
+       })
+      }
+      loadCartItems(){
+        this.cartService.getCartItems().subscribe((items: CartItem[]) => {
+          this.cartItems =items;
+          this.calCartTotal();
+        })
+
+      }
+addProductTocart(product: Product)
+{
+  let productExists = false
+
+  // if the product already exists in cart just increment the quantity 
+  for(let i in this.cartItems){
+          if(this.cartItems[i].productId === product.id){
+             this.cartItems[i].quantity ++;
+             productExists = true
+             break;
+  }}
+  // if the product doesn't exists pusha that product 
+  if(!productExists){
+    this.cartItems.push({
+           productId: product.id,
+            productName: product.name, 
+           quantity: 1,
+          price: product.price
+          })
+  }
+  // if(this.cartItems.length === 0){
+  //   this.cartItems.push({
+  //     productId: product.id,
+  //      productName: product.name, 
+  //      quantity: 1,
+  //      price: product.price
+  //     })
+  //    } else{
+  //     for(let i in this.cartItems){
+  //       if(this.cartItems[i].productId === product.id){
+  //         this.cartItems[i].quantity ++;
+  //         break;
+  //       } else {
+  //         this.cartItems.push({
+  //           productId: product.id,
+  //            productName: product.name, 
+  //            quantity: 1,
+  //            price: product.price
+  //           })
+  //       }
+
+    
+  //     }
+
+  //     }
+this.calCartTotal();
+ 
 }
-
-
+calCartTotal(){
+  this.cartTotal = 0; 
+  this.cartItems.forEach(item => { 
+    this.cartTotal += (item['quantity'] * item['price']) 
+  }) 
+}
+}

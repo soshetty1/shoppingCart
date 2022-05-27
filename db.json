@@ -1,0 +1,368 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Unicorn Doll",
+      "description": "Our unicorns are very cute. You can either give them as gifts or collect them.If you are a boyfriend, then you can give our unicorn as a gift to your girlfriend, let it convey love to her and accompany her.",
+      "imageUrl": "https://i.pinimg.com/originals/15/63/14/156314273707e696638ff369a2a92e51.jpg",
+      "price": 50
+    },
+    {
+      "id": 2,
+      "name": "barbie doll",
+      "description": "Princess dolls from Barbie Dreamtopia bring fairytale dreams to life in fantastical looks with colorful touches! This Barbie princess doll is dressed for a royal occasion in a sparkly pink bodice and vibrant skirt with a flowery print. A purple streak in her blonde hair adds a splash of color, and a bright tiara completes her fantastical look.",
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/610YnX2Cu9L._CR204,0,1224,1224_UX256.jpg",
+      "price": 100
+    },
+    {
+      "id": 3,
+      "name": "Dance Mat",
+      "description": "Kids are addicted to video games, TV, tablets and other high-tech electronic products. It's time to make some a change! Keep your kids away from screen and get moved! This is an ideal toy gift for kids especially who love to dance or move!",
+      "imageUrl": "https://b3h2.scene7.com/is/image/BedBathandBeyond/139044962738514p?$imagePLP$&wid=256&hei=256",
+      "price": 300
+    },
+    {
+      "id": 4,
+      "name": "Doctor Set",
+      "description": "Many Pretend toys have an educational profile, even if some are mostly made to keep kids entertained while improving creativity. But the good news is some of the best doctor kit toys for kids are actually able to offer a much-needed introduction into the world of healthcare and its practitioners.",
+      "imageUrl": "https://b3h2.scene7.com/is/image/BedBathandBeyond/308111668950125p?$imagePLP$&wid=256&hei=256",
+      "price": 150
+    },
+    {
+      "id": 5,
+      "name": "Star Projector",
+      "description": "What if you could bring the night sky inside? The best star projectors do just that, filling walls and ceilings with stars, constellations and more to create an immersive experience that can spark imaginations. Easy to use and simple to set up, star projectors come in many shapes and sizes and to suit a range of budgets as vast as the night sky itself.",
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1ZZYoILeDlHVLtmvpruwI1c39kystxEXjvw&usqp=CAU",
+      "price": 500
+    }
+  ],
+  "cart": [
+    {
+      "product": {
+        "id": 1,
+        "name": "Unicorn Doll",
+        "description": "Our unicorns are very cute. You can either give them as gifts or collect them.If you are a boyfriend, then you can give our unicorn as a gift to your girlfriend, let it convey love to her and accompany her.",
+        "imageUrl": "https://i.pinimg.com/originals/15/63/14/156314273707e696638ff369a2a92e51.jpg",
+        "price": 50
+      },
+      "id": 1
+    },
+    {
+      "product": {
+        "id": 2,
+        "name": "barbie doll",
+        "description": "Princess dolls from Barbie Dreamtopia bring fairytale dreams to life in fantastical looks with colorful touches! This Barbie princess doll is dressed for a royal occasion in a sparkly pink bodice and vibrant skirt with a flowery print. A purple streak in her blonde hair adds a splash of color, and a bright tiara completes her fantastical look.",
+        "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/610YnX2Cu9L._CR204,0,1224,1224_UX256.jpg",
+        "price": 100
+      },
+      "id": 2
+    },
+    {
+      "product": {
+        "id": 2,
+        "name": "barbie doll",
+        "description": "Princess dolls from Barbie Dreamtopia bring fairytale dreams to life in fantastical looks with colorful touches! This Barbie princess doll is dressed for a royal occasion in a sparkly pink bodice and vibrant skirt with a flowery print. A purple streak in her blonde hair adds a splash of color, and a bright tiara completes her fantastical look.",
+        "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/610YnX2Cu9L._CR204,0,1224,1224_UX256.jpg",
+        "price": 100
+      },
+      "id": 3
+    },
+    {
+      "product": {
+        "id": 2,
+        "name": "barbie doll",
+        "description": "Princess dolls from Barbie Dreamtopia bring fairytale dreams to life in fantastical looks with colorful touches! This Barbie princess doll is dressed for a royal occasion in a sparkly pink bodice and vibrant skirt with a flowery print. A purple streak in her blonde hair adds a splash of color, and a bright tiara completes her fantastical look.",
+        "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/610YnX2Cu9L._CR204,0,1224,1224_UX256.jpg",
+        "price": 100
+      },
+      "id": 4
+    },
+    {
+      "product": {
+        "id": 3,
+        "name": "Dance Mat",
+        "description": "Kids are addicted to video games, TV, tablets and other high-tech electronic products. It's time to make some a change! Keep your kids away from screen and get moved! This is an ideal toy gift for kids especially who love to dance or move!",
+        "imageUrl": "https://b3h2.scene7.com/is/image/BedBathandBeyond/139044962738514p?$imagePLP$&wid=256&hei=256",
+        "price": 300
+      },
+      "id": 5
+    },
+    {
+      "product": {
+        "id": 1,
+        "name": "Unicorn Doll",
+        "description": "Our unicorns are very cute. You can either give them as gifts or collect them.If you are a boyfriend, then you can give our unicorn as a gift to your girlfriend, let it convey love to her and accompany her.",
+        "imageUrl": "https://i.pinimg.com/originals/15/63/14/156314273707e696638ff369a2a92e51.jpg",
+        "price": 50
+      },
+      "id": 6
+    },
+    {
+      "product": {
+        "id": 2,
+        "name": "barbie doll",
+        "description": "Princess dolls from Barbie Dreamtopia bring fairytale dreams to life in fantastical looks with colorful touches! This Barbie princess doll is dressed for a royal occasion in a sparkly pink bodice and vibrant skirt with a flowery print. A purple streak in her blonde hair adds a splash of color, and a bright tiara completes her fantastical look.",
+        "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/610YnX2Cu9L._CR204,0,1224,1224_UX256.jpg",
+        "price": 100
+      },
+      "id": 7
+    },
+    {
+      "product": {
+        "id": 2,
+        "name": "barbie doll",
+        "description": "Princess dolls from Barbie Dreamtopia bring fairytale dreams to life in fantastical looks with colorful touches! This Barbie princess doll is dressed for a royal occasion in a sparkly pink bodice and vibrant skirt with a flowery print. A purple streak in her blonde hair adds a splash of color, and a bright tiara completes her fantastical look.",
+        "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/610YnX2Cu9L._CR204,0,1224,1224_UX256.jpg",
+        "price": 100
+      },
+      "id": 8
+    },
+    {
+      "product": {
+        "id": 2,
+        "name": "barbie doll",
+        "description": "Princess dolls from Barbie Dreamtopia bring fairytale dreams to life in fantastical looks with colorful touches! This Barbie princess doll is dressed for a royal occasion in a sparkly pink bodice and vibrant skirt with a flowery print. A purple streak in her blonde hair adds a splash of color, and a bright tiara completes her fantastical look.",
+        "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/610YnX2Cu9L._CR204,0,1224,1224_UX256.jpg",
+        "price": 100
+      },
+      "id": 9
+    },
+    {
+      "product": {
+        "id": 1,
+        "name": "Unicorn Doll",
+        "description": "Our unicorns are very cute. You can either give them as gifts or collect them.If you are a boyfriend, then you can give our unicorn as a gift to your girlfriend, let it convey love to her and accompany her.",
+        "imageUrl": "https://i.pinimg.com/originals/15/63/14/156314273707e696638ff369a2a92e51.jpg",
+        "price": 50
+      },
+      "id": 10
+    },
+    {
+      "product": {
+        "id": 1,
+        "name": "Unicorn Doll",
+        "description": "Our unicorns are very cute. You can either give them as gifts or collect them.If you are a boyfriend, then you can give our unicorn as a gift to your girlfriend, let it convey love to her and accompany her.",
+        "imageUrl": "https://i.pinimg.com/originals/15/63/14/156314273707e696638ff369a2a92e51.jpg",
+        "price": 50
+      },
+      "id": 11
+    },
+    {
+      "product": {
+        "id": 2,
+        "name": "barbie doll",
+        "description": "Princess dolls from Barbie Dreamtopia bring fairytale dreams to life in fantastical looks with colorful touches! This Barbie princess doll is dressed for a royal occasion in a sparkly pink bodice and vibrant skirt with a flowery print. A purple streak in her blonde hair adds a splash of color, and a bright tiara completes her fantastical look.",
+        "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/610YnX2Cu9L._CR204,0,1224,1224_UX256.jpg",
+        "price": 100
+      },
+      "id": 12
+    },
+    {
+      "product": {
+        "id": 2,
+        "name": "barbie doll",
+        "description": "Princess dolls from Barbie Dreamtopia bring fairytale dreams to life in fantastical looks with colorful touches! This Barbie princess doll is dressed for a royal occasion in a sparkly pink bodice and vibrant skirt with a flowery print. A purple streak in her blonde hair adds a splash of color, and a bright tiara completes her fantastical look.",
+        "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/610YnX2Cu9L._CR204,0,1224,1224_UX256.jpg",
+        "price": 100
+      },
+      "id": 13
+    },
+    {
+      "product": {
+        "id": 1,
+        "name": "Unicorn Doll",
+        "description": "Our unicorns are very cute. You can either give them as gifts or collect them.If you are a boyfriend, then you can give our unicorn as a gift to your girlfriend, let it convey love to her and accompany her.",
+        "imageUrl": "https://i.pinimg.com/originals/15/63/14/156314273707e696638ff369a2a92e51.jpg",
+        "price": 50
+      },
+      "id": 14
+    },
+    {
+      "product": {
+        "id": 1,
+        "name": "Unicorn Doll",
+        "description": "Our unicorns are very cute. You can either give them as gifts or collect them.If you are a boyfriend, then you can give our unicorn as a gift to your girlfriend, let it convey love to her and accompany her.",
+        "imageUrl": "https://i.pinimg.com/originals/15/63/14/156314273707e696638ff369a2a92e51.jpg",
+        "price": 50
+      },
+      "id": 15
+    },
+    {
+      "product": {
+        "id": 1,
+        "name": "Unicorn Doll",
+        "description": "Our unicorns are very cute. You can either give them as gifts or collect them.If you are a boyfriend, then you can give our unicorn as a gift to your girlfriend, let it convey love to her and accompany her.",
+        "imageUrl": "https://i.pinimg.com/originals/15/63/14/156314273707e696638ff369a2a92e51.jpg",
+        "price": 50
+      },
+      "id": 16
+    },
+    {
+      "product": {
+        "id": 1,
+        "name": "Unicorn Doll",
+        "description": "Our unicorns are very cute. You can either give them as gifts or collect them.If you are a boyfriend, then you can give our unicorn as a gift to your girlfriend, let it convey love to her and accompany her.",
+        "imageUrl": "https://i.pinimg.com/originals/15/63/14/156314273707e696638ff369a2a92e51.jpg",
+        "price": 50
+      },
+      "id": 17
+    },
+    {
+      "product": {
+        "id": 1,
+        "name": "Unicorn Doll",
+        "description": "Our unicorns are very cute. You can either give them as gifts or collect them.If you are a boyfriend, then you can give our unicorn as a gift to your girlfriend, let it convey love to her and accompany her.",
+        "imageUrl": "https://i.pinimg.com/originals/15/63/14/156314273707e696638ff369a2a92e51.jpg",
+        "price": 50
+      },
+      "id": 18
+    },
+    {
+      "product": {
+        "id": 1,
+        "name": "Unicorn Doll",
+        "description": "Our unicorns are very cute. You can either give them as gifts or collect them.If you are a boyfriend, then you can give our unicorn as a gift to your girlfriend, let it convey love to her and accompany her.",
+        "imageUrl": "https://i.pinimg.com/originals/15/63/14/156314273707e696638ff369a2a92e51.jpg",
+        "price": 50
+      },
+      "id": 19
+    },
+    {
+      "product": {
+        "id": 1,
+        "name": "Unicorn Doll",
+        "description": "Our unicorns are very cute. You can either give them as gifts or collect them.If you are a boyfriend, then you can give our unicorn as a gift to your girlfriend, let it convey love to her and accompany her.",
+        "imageUrl": "https://i.pinimg.com/originals/15/63/14/156314273707e696638ff369a2a92e51.jpg",
+        "price": 50
+      },
+      "id": 20
+    },
+    {
+      "product": {
+        "id": 1,
+        "name": "Unicorn Doll",
+        "description": "Our unicorns are very cute. You can either give them as gifts or collect them.If you are a boyfriend, then you can give our unicorn as a gift to your girlfriend, let it convey love to her and accompany her.",
+        "imageUrl": "https://i.pinimg.com/originals/15/63/14/156314273707e696638ff369a2a92e51.jpg",
+        "price": 50
+      },
+      "id": 21
+    },
+    {
+      "product": {
+        "id": 1,
+        "name": "Unicorn Doll",
+        "description": "Our unicorns are very cute. You can either give them as gifts or collect them.If you are a boyfriend, then you can give our unicorn as a gift to your girlfriend, let it convey love to her and accompany her.",
+        "imageUrl": "https://i.pinimg.com/originals/15/63/14/156314273707e696638ff369a2a92e51.jpg",
+        "price": 50
+      },
+      "id": 22
+    },
+    {
+      "product": {
+        "id": 1,
+        "name": "Unicorn Doll",
+        "description": "Our unicorns are very cute. You can either give them as gifts or collect them.If you are a boyfriend, then you can give our unicorn as a gift to your girlfriend, let it convey love to her and accompany her.",
+        "imageUrl": "https://i.pinimg.com/originals/15/63/14/156314273707e696638ff369a2a92e51.jpg",
+        "price": 50
+      },
+      "id": 23
+    },
+    {
+      "product": {
+        "id": 2,
+        "name": "barbie doll",
+        "description": "Princess dolls from Barbie Dreamtopia bring fairytale dreams to life in fantastical looks with colorful touches! This Barbie princess doll is dressed for a royal occasion in a sparkly pink bodice and vibrant skirt with a flowery print. A purple streak in her blonde hair adds a splash of color, and a bright tiara completes her fantastical look.",
+        "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/610YnX2Cu9L._CR204,0,1224,1224_UX256.jpg",
+        "price": 100
+      },
+      "id": 24
+    },
+    {
+      "product": {
+        "id": 2,
+        "name": "barbie doll",
+        "description": "Princess dolls from Barbie Dreamtopia bring fairytale dreams to life in fantastical looks with colorful touches! This Barbie princess doll is dressed for a royal occasion in a sparkly pink bodice and vibrant skirt with a flowery print. A purple streak in her blonde hair adds a splash of color, and a bright tiara completes her fantastical look.",
+        "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/610YnX2Cu9L._CR204,0,1224,1224_UX256.jpg",
+        "price": 100
+      },
+      "id": 25
+    },
+    {
+      "product": {
+        "id": 2,
+        "name": "barbie doll",
+        "description": "Princess dolls from Barbie Dreamtopia bring fairytale dreams to life in fantastical looks with colorful touches! This Barbie princess doll is dressed for a royal occasion in a sparkly pink bodice and vibrant skirt with a flowery print. A purple streak in her blonde hair adds a splash of color, and a bright tiara completes her fantastical look.",
+        "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/610YnX2Cu9L._CR204,0,1224,1224_UX256.jpg",
+        "price": 100
+      },
+      "id": 26
+    },
+    {
+      "product": {
+        "id": 2,
+        "name": "barbie doll",
+        "description": "Princess dolls from Barbie Dreamtopia bring fairytale dreams to life in fantastical looks with colorful touches! This Barbie princess doll is dressed for a royal occasion in a sparkly pink bodice and vibrant skirt with a flowery print. A purple streak in her blonde hair adds a splash of color, and a bright tiara completes her fantastical look.",
+        "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/610YnX2Cu9L._CR204,0,1224,1224_UX256.jpg",
+        "price": 100
+      },
+      "id": 27
+    },
+    {
+      "product": {
+        "id": 2,
+        "name": "barbie doll",
+        "description": "Princess dolls from Barbie Dreamtopia bring fairytale dreams to life in fantastical looks with colorful touches! This Barbie princess doll is dressed for a royal occasion in a sparkly pink bodice and vibrant skirt with a flowery print. A purple streak in her blonde hair adds a splash of color, and a bright tiara completes her fantastical look.",
+        "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/610YnX2Cu9L._CR204,0,1224,1224_UX256.jpg",
+        "price": 100
+      },
+      "id": 28
+    },
+    {
+      "product": {
+        "id": 2,
+        "name": "barbie doll",
+        "description": "Princess dolls from Barbie Dreamtopia bring fairytale dreams to life in fantastical looks with colorful touches! This Barbie princess doll is dressed for a royal occasion in a sparkly pink bodice and vibrant skirt with a flowery print. A purple streak in her blonde hair adds a splash of color, and a bright tiara completes her fantastical look.",
+        "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/610YnX2Cu9L._CR204,0,1224,1224_UX256.jpg",
+        "price": 100
+      },
+      "id": 29
+    },
+    {
+      "product": {
+        "id": 1,
+        "name": "Unicorn Doll",
+        "description": "Our unicorns are very cute. You can either give them as gifts or collect them.If you are a boyfriend, then you can give our unicorn as a gift to your girlfriend, let it convey love to her and accompany her.",
+        "imageUrl": "https://i.pinimg.com/originals/15/63/14/156314273707e696638ff369a2a92e51.jpg",
+        "price": 50
+      },
+      "id": 30
+    },
+    {
+      "product": {
+        "id": 2,
+        "name": "barbie doll",
+        "description": "Princess dolls from Barbie Dreamtopia bring fairytale dreams to life in fantastical looks with colorful touches! This Barbie princess doll is dressed for a royal occasion in a sparkly pink bodice and vibrant skirt with a flowery print. A purple streak in her blonde hair adds a splash of color, and a bright tiara completes her fantastical look.",
+        "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/610YnX2Cu9L._CR204,0,1224,1224_UX256.jpg",
+        "price": 100
+      },
+      "id": 31
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
